@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Blog</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to My Blog</h1>
+            <p>Thoughts, stories, and ideas</p>
+        </section>
+
+        <!-- Category Tabs -->
+        <section class="category-tabs">
+            <a href="index.html" class="tab active">Recent</a>
+            <a href="category/wandering-knight.html" class="tab">The Wandering Knight</a>
+            <a href="category/drunkards-path.html" class="tab">The Drunkard's Path</a>
+            <a href="category/tolerance.html" class="tab">Tolerance</a>
+        </section>
+
+        <!-- Recent Posts -->
+        <section class="posts">
+            <h3 class="section-title">Recent Posts</h3>
+
+            <article class="post-card">
+                <span class="post-tag tag-knight">The Wandering Knight</span>
+                <div class="post-date">February 17, 2026</div>
+                <h2><a href="posts/first-post.html">My First Blog Post</a></h2>
+                <p>This is a preview of my first blog post. Click to read more about my journey and what I'll be sharing on this blog.</p>
+                <a href="posts/first-post.html" class="read-more">Read More →</a>
+            </article>
+
+            <article class="post-card">
+                <span class="post-tag tag-drunkard">The Drunkard's Path</span>
+                <div class="post-date">February 17, 2026</div>
+                <h2><a href="posts/getting-started.html">Getting Started with Blogging</a></h2>
+                <p>Tips and tricks for starting your own blog. Learn how to create engaging content and connect with your audience.</p>
+                <a href="posts/getting-started.html" class="read-more">Read More →</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Blog. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        </div>
+    </footer>
+</body>
+</html>
